@@ -1,0 +1,18 @@
+.main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7.5rem;
+}
+
+.person {
+    text-align: center;
+    font-size: 1.6rem; /* - here just because the alt attribute text on Image was too small after changing global font-size to 62.5% */
+}
+
+.person img {
+    margin-top: 1rem;    
+    border-radius: 100%;
+    /* width: 250px; - is applied through the Image component from next/image */
+} 

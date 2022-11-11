@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  flex: 1;  
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+
+.main::before {
+  content:"";
+  background: url("../public/Lakeside.jpg") no-repeat center center/cover; 
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px; 
+  opacity: 0.80;
+} 
+
+.main h1 { 
+  position: relative;  
+  margin-top: -5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+   
+}
+
+.main h3 {  
+  position: relative;
+  margin-left: 2rem;
+  margin-right: 2rem; 
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) { 
+  .main h1 { 
+    position: relative;  
+    margin-top: -5rem;
+  }
+
+  .main h3 {  
+    position: relative; 
+  }
+}
